@@ -1,0 +1,11 @@
+[package]
+name = "rust_to_wasm"
+version = "0.1.0"
+authors = ["Your Name"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
